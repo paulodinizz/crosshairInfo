@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+/* header */
+.topnav{
+    overflow: hidden;
+    background-color: #3E065F;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #8E05C2;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+.topnav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: #700B97;
+    color: white;
+}
+
+.topnav .search-container button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #700B97;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover{
+    background: #8E05C2;
+}
+
+@media screen and (max-width: 600px){
+    .topnav .search-container{
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text]{
+        border: 1 solid #ccc;
+    }
+}
+
+/* content */
+.container{
+    column-count: 5;
+}
+.card{
+    font-family: 'Bebas Neue' sans-serif;
+    margin: 10px;
+    width: 200px;
+    height: 298px;
+    background-color: #3E065F;
+    border-radius: 5px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardBody{
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    right: -100%;
+    position: absolute;
+    background: #000000f3;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.card:hover .cardBody{
+    right: 0;
+    top: 0;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cardSubtitle{
+    font-size: 13px;
+    font-weight: 300;
+    color: gray;
+    line-height: 0.8;
+}
+
+.cardInfo{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.playerName2letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.playerName3letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.playerName4letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.playerName5letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 70px;
+    left: -16px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.playerName6letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 85px;
+    left: -35px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+.playerName6letters2{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 85px;
+    left: -24px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.playerName7letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 100px;
+    left: -42px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+.playerName8letters{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 98px;
+    left: -42px;
+    font-size: 30px;
+    color: white;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.team{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.nrg{
+    filter: invert(1);
+}
+
+.player{
+    width: 180px;
+    position: absolute;
+    top: 116px;
+}
+
+.playerSuy{
+    width: 180px;
+    position: absolute;
+    top: 96px;
+}
+
+/* footer */
+
+.footer-basic{
+    padding: 40px 0;
+    background-color: #3E065F;
+}
+
+.footer-basic ul a:hover{
+    opacity: 1;
+}
+
+.footer-basic .social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social > a{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 8px;
+    color: white;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover{
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
