@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+.sideBar{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    /* /* margin-top: 70px; */
+    padding-top: 30px; 
+    left: 0;
+    background-color: #3E065F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideBar .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sideBar h2{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.sideBar .social{
+    padding-top: 25px;
+}
+
+.sideBar .social > a{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: white;
+    opacity: 0.75;
+}
+
+.sideBar .social > a:hover{
+    opacity: 0.9;
+}
