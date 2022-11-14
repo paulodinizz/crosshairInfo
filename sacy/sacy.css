@@ -218,3 +218,32 @@ body{
 .contentRowRight.active{
     background-color: #8E05C2;
 }
+
+.contentRowRight.active2{
+    background-color: #8d05c2d2;
+}
+
+.contentRowRightFullsize{
+    background-color: #3e065f67;
+    width: 79%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contentRowRightFullsize:hover{
+    background-color: #8d05c2d2;
+}
+
+
+.contentRowRightFullsize p{
+    padding: 12px 12px;
+    color: white;
+    float: left;
+}
+.contentRowRightFullsize a{
+    font-size: 30px;
+    padding: 2px 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
