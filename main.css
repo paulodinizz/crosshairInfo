@@ -105,7 +105,7 @@ body{
     top: -100%;
     right: -100%;
     position: absolute;
-    background: #000000f3;
+    background: #000000f5;
     border-radius: 5px;
     color: #fff;
     padding: 20px;
@@ -113,6 +113,21 @@ body{
     flex-direction: column;
     justify-content: center;
     transition: 0.2s;
+}
+
+.contentCard{
+    display: inline-block;
+    position: relative;
+}
+
+.contentCard img{
+    width: 250px;
+    opacity: 0.5;
+}
+
+.contentInfoCard{
+    position: absolute;
+    top: 0px;
 }
 
 .card:hover .cardBody{
