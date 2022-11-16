@@ -228,6 +228,8 @@ body{
     width: 79%;
     height: 50px;
     cursor: pointer;
+    position: relative;
+    
 }
 
 .contentRowRightFullsize:hover{
@@ -235,15 +237,51 @@ body{
 }
 
 
-.contentRowRightFullsize p{
-    padding: 12px 12px;
+.contentRowRightFullsize span{
     color: white;
-    float: left;
+    padding-left: 12px;
 }
-.contentRowRightFullsize a{
+
+.contentRowRightFullsize.active i{
+    transform: rotate(-180deg);
+    padding-left: 12px;
+}
+
+.contentRowRightFullsize i{
     font-size: 30px;
-    padding: 2px 12px;
+    padding-right: 12px;
+    transition: 0.6s;
+}
+
+.contentRowRightFullsize.active .dropdownListItems{
+    display: block;
+}
+
+.dropdownSelect{
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dropdownList{
+    background-color: #3e065f;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.dropdownListItems{
+    padding: 12px;
+    color: white;
+    display: none;
+
+}
+
+.dropdownListItems:hover{
+    background-color: #8d05c2d2;
 }
 
