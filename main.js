@@ -1,4 +1,4 @@
-let cards =document.querySelector('.container')
+let cards =document.querySelector('.cards')
 
 fetch('assets/json/players.json')
 .then(response => response.json())

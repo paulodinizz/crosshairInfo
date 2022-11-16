@@ -78,14 +78,19 @@ body{
 }
 
 /* content */
-.container{
-    column-count: 5;
+.cards{
+    max-width: 1280px;
+    margin-inline: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 20px;
 }
 .card{
     font-family: 'Bebas Neue' sans-serif;
     width: 200px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    /* margin-bottom: 20px;
+    margin-right: 20px; */
     height: 298px;
     background-color: #3E065F;
     border-radius: 5px;
