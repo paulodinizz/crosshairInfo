@@ -1,0 +1,205 @@
+[
+    {
+        "settings": "sacy",
+        "nickname": "SACY",
+        "name": "Gustavo Rossi",
+        "born": "December 2, 1997",
+        "team": "Sentinels",
+        "teamIcon": "Sentinels",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "Sacy"
+    },
+    {
+        "nickname": "PANCADA",
+        "name": "Bryan Luna",
+        "born": "October 31, 1999",
+        "team": "Sentinels",
+        "teamIcon": "Sentinels",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "Pancada"
+    },
+    {
+        "nickname": "ASPAS",
+        "name": "Erick Santos",
+        "born": "June 15, 2003",
+        "team": "Loud",
+        "teamIcon": "Loud",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "Aspas"
+    },
+    {
+        "nickname": "LESS",
+        "name": "Felipe Basso",
+        "born": "February 24, 2005",
+        "team": "Loud",
+        "teamIcon": "Loud",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "Less"
+    },
+    {
+        "nickname": "SAADHAK",
+        "name": "Matias Delipetro",
+        "born": "March 8, 1997",
+        "team": "Loud",
+        "teamIcon": "Loud",
+        "nationality": "Argentina",
+        "nationalityIcon": "argentina",
+        "profilePic": "Saadhak"
+    },
+    {
+        "nickname": "YAY",
+        "name": "Jaccob Whiteaker",
+        "born": "September 9, 1998",
+        "team": "Cloud9",
+        "teamIcon": "cloud9",
+        "nationality": "United States",
+        "nationalityIcon": "unitedstates",
+        "profilePic": "Yay"
+    },
+    {
+        "nickname": "MARVED",
+        "name": "Jimmy Nguyen",
+        "born": "February 24, 2000",
+        "team": "Optic",
+        "teamIcon": "Optic",
+        "nationality": "Canada",
+        "nationalityIcon": "canada",
+        "profilePic": "Marved"
+    },
+    {
+        "nickname": "VICTOR",
+        "name": "Victor Wong",
+        "born": "September 14, 1996",
+        "team": "NRG",
+        "teamIcon": "Nrg",
+        "nationality": "United States",
+        "nationalityIcon": "unitedstates",
+        "profilePic": "Victor"
+    },
+    {
+        "nickname": "CRASHIES",
+        "name": "Austin Roberts",
+        "born": "December 20, 1997",
+        "team": "NRG",
+        "teamIcon": "Nrg",
+        "nationality": "United States",
+        "nationalityIcon": "unitedstates",
+        "profilePic": "Crashies"
+    },
+    {
+        "nickname": "FNS",
+        "name": "Pujan Mehta",
+        "born": "March 19, 1992",
+        "team": "NRG",
+        "teamIcon": "Nrg",
+        "nationality": "Canada",
+        "nationalityIcon": "canada",
+        "profilePic": "Fns"
+    },
+    {
+        "nickname": "BUZZ",
+        "name": "Yu Byung-chul",
+        "born": "January 13, 2003",
+        "team": "DRX",
+        "teamIcon": "Drx",
+        "nationality": "South Korea",
+        "nationalityIcon": "southkorea",
+        "profilePic": "Buzz"
+    },
+    {
+        "nickname": "MAKO",
+        "name": "Kim Myeong-kwan",
+        "born": "January 15, 2002",
+        "team": "DRX",
+        "teamIcon": "Drx",
+        "nationality": "South Korea",
+        "nationalityIcon": "southkorea",
+        "profilePic": "Mako"
+    },
+    {
+        "nickname": "ZEST",
+        "name": "Kim Gi-seok",
+        "born": "December 27, 2000",
+        "team": "DRX",
+        "teamIcon": "Drx",
+        "nationality": "South Korea",
+        "nationalityIcon": "southkorea",
+        "profilePic": "Zest"
+    },
+    {
+        "nickname": "RB",
+        "name": "Goo Sang-min",
+        "born": "December 7, 2001",
+        "team": "DRX",
+        "teamIcon": "Drx",
+        "nationality": "South Korea",
+        "nationalityIcon": "southkorea",
+        "profilePic": "Rb"
+    },
+    {
+        "nickname": "STAX",
+        "name": "Kim Gu-taek",
+        "born": "February 16, 2000",
+        "team": "DRX",
+        "teamIcon": "Drx",
+        "nationality": "South Korea",
+        "nationalityIcon": "southkorea",
+        "profilePic": "Stax"
+    },
+    {
+        "nickname": "ZYPPAN",
+        "name": "Pontus Eek",
+        "born": "July 17, 2002",
+        "team": "Natus Vincere",
+        "teamIcon": "navi",
+        "nationality": "Sweden",
+        "nationalityIcon": "sweden",
+        "profilePic": "Zyppan"
+    },
+    {
+        "nickname": "ARDIIS",
+        "name": "Ardis Svarenieks",
+        "born": "May 1, 1998",
+        "team": "NRG",
+        "teamIcon": "Nrg",
+        "nationality": "United Kingdom",
+        "nationalityIcon": "unitedkingdom",
+        "profilePic": "ardiis"
+    },
+    {
+        "nickname": "SUYGETSU",
+        "name": "Dmitry Ilyushin",
+        "born": "July 16, 2002",
+        "team": "Natus Vincere",
+        "teamIcon": "navi",
+        "nationality": "Russia",
+        "nationalityIcon": "russia",
+        "profilePic": "Suygetsu"
+    },
+    {
+        "nickname": "SHAO",
+        "name": "Andrey Kiprsky",
+        "born": "January 27, 2000",
+        "team": "Natus Vincere",
+        "teamIcon": "navi",
+        "nationality": "Russia",
+        "nationalityIcon": "Russia",
+        "profilePic": "Shao"
+    },
+    {
+        "nickname": "ANGE1",
+        "name": "Kyrylo Karasov",
+        "born": "September 10, 1989",
+        "team": "Natus Vincere",
+        "teamIcon": "navi",
+        "nationality": "Ukraine",
+        "nationalityIcon": "ukraine",
+        "profilePic": "Ange1"
+    }
+    
+]
+    
