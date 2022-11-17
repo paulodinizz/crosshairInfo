@@ -105,6 +105,19 @@ body{
     cursor: pointer;
 }
 
+.playerName{
+    font-size: 20px;
+    color: #fff;
+
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    height: 30px;
+    width: 92.94px;
+
+}
+
 .card a{
     display: flex;
     align-items: center;

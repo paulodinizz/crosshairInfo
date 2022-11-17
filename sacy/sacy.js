@@ -1,7 +1,7 @@
 
-const optionMenu = document.querySelector(".contentRowRightFullsize"), 
-dropdownSelect = optionMenu.querySelector(".dropdownSelect"), 
-options = optionMenu.querySelectorAll(".dropdownListItems"), 
+const optionMenu = document.querySelector(".contentRowRightFullsize"),
+dropdownSelect = optionMenu.querySelector(".dropdownSelect"),
+options = optionMenu.querySelectorAll(".dropdownListItems"),
 btnText = optionMenu.querySelector(".btnText");
 
 dropdownSelect.addEventListener("click", () => optionMenu.classList.toggle("active"))

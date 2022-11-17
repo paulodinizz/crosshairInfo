@@ -48,13 +48,13 @@
                                     </div>
                                     <div class="contentBoxes col">
                                         <div class="boxItems" style="margin-right: 20px;">
-                                            <a target="_blank"><i class="icon ion-ios-trash-outline"></i></a>
+                                            <a  target="_blank"><i  class="icon ion-ios-trash-outline"></i></a>
                                         </div>
                                         <div class="boxItems">
                                             <a title="Import" target="_blank"><i class="icon ion-ios-download-outline"></i></a>
                                         </div>
                                         <div class="boxItems">
-                                            <a title="Export"  target="_blank"><i class="icon ion-ios-upload-outline"></i></a>
+                                            <a onclick="CopyToClipboard('mira1');return false;" title="Export"  target="_blank"><i class="icon ion-ios-upload-outline"></i></a>
                                         </div>
                                         <div class="boxItems">
                                             <a title=""  target="_blank"><i class="icon ion-ios-copy-outline"></i></a>
@@ -156,7 +156,31 @@
             </div>
         </div>
     </div>
+    <div style="display:none;">
+        <div id="mira1">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira2">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira3">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira4">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira5">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira6">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira7">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira8">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira9">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira10">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+        <div id="mira11">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="sacy.js"></script>
+    <script>
+        function CopyToClipboard(id)
+        {
+            var r = document.createRange();
+            r.selectNode(document.getElementById(id));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(r);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        }
+    </script>
 </body>
 </html>
