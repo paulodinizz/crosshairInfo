@@ -11,7 +11,7 @@ fetch('assets/json/players.json')
 
     card.innerHTML = `
     <span class="playerName">${player.nickname}</span>
-    <a href="${player.settings}/${player.settings}">
+    <a href="${player.settings}/${player.settings}.html">
     <img class="team" src="assets/images/team/${player.teamIcon}.png" alt="">
     <img class="player" src="assets/images/players/${player.profilePic}.png" alt="">
     <div class="cardBody">

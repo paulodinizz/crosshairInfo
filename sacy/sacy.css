@@ -129,7 +129,7 @@ body{
 
 /* main content */
 
-.mainContent{
+.imageContent{
     display: flex;
     align-items: center;
     justify-content: center;
