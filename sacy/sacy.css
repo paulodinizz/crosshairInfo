@@ -134,6 +134,11 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 350px;
+    z-index: 1000;
+}
+
+.imageContentChange{
+    z-index: 1000;
 }
 
 .crosshairContent{
@@ -275,10 +280,10 @@ body{
 }
 
 .dropdownListItems{
-    padding: 12px;
+    padding: 5px;
     color: white;
     display: none;
-
+    font-size: 12px;
 }
 
 .dropdownListItems:hover{
