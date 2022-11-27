@@ -33,7 +33,7 @@ body{
     background-color: #8E05C2;
 }
 
-.topnav .search-container{
+.topnav .search{
     float: right;
 }
 
@@ -44,29 +44,41 @@ body{
     border: none;
     background: #700B97;
     color: white;
+
+    width: 300px;
+    border-radius: 25px;
 }
 
-.topnav .search-container button{
+.topnav input[type=text]:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.topnav .search button{
     float: right;
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
-    background: #700B97;
     font-size: 17px;
     border: none;
     cursor: pointer;
+    background-color: #3E065F;
+    color: #fff;
 }
 
-.topnav .search-container button:hover{
-    background: #8E05C2;
+.topnav .search button:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 @media screen and (max-width: 600px){
-    .topnav .search-container{
+    .topnav .search{
         float: none;
     }
 
-    .topnav a, .topnav input[type=text], .topnav .search-container button{
+    .topnav a, .topnav input[type=text], .topnav .search button{
         float: none;
         display: block;
         text-align: left;
@@ -95,7 +107,7 @@ body{
 .cards::-webkit-scrollbar-track
 {
 	border: 1px solid #8E05C2;
-	background-color: #000000;
+	background-color: #00000000;
     border-radius: 10px;
 }
 
