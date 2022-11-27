@@ -33,7 +33,6 @@ fetch('assets/json/players.json')
     VanillaTilt.init(document.querySelectorAll(".card"), {
         max: 25,
         speed: 400,
-        scale: 1.1,
         glare: true,
         "max-glare": 0.8,
     });
