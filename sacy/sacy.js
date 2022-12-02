@@ -23,12 +23,12 @@ function imgMira1(){
 function imgMira2(){
     var img = document.getElementById('imageContentChange');
     img.setAttribute('src', 'images/crosshair/crosshair2.png')
-    document.getElementById("importMira").innerHTML = "Teste 2";
+    document.getElementById("importMira").innerHTML = "0;s;1;P;h;0;0t;1;0l;4;0o;1;0a;1;0f;0;1t;3;1o;2;1a;1;1m;0;1f;0;S;c;0";
 }
 function imgMira3(){
     var img = document.getElementById('imageContentChange');
     img.setAttribute('src', 'images/crosshair/crosshair3.png')
-    document.getElementById("importMira").innerHTML = "Teste 3";
+    document.getElementById("importMira").innerHTML = "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0";
 }
 function imgMira4(){
     var img = document.getElementById('imageContentChange');
