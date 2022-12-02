@@ -100,7 +100,7 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     row-gap: 20px;
 
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     height: 78vh;
 }
 
