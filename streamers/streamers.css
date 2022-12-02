@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000ed;
+    /* background-image: url(assets/images/background/background-image.jpg); */
+    overflow: hidden;
+}
+
+/* header */
+.topnav{
+    overflow: hidden;
+    background-color: #3E065F;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #8E05C2;
+}
+
+.topnav .search{
+    float: right;
+}
+
+.topnav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: #700B97;
+    color: white;
+
+    width: 300px;
+    border-radius: 25px;
+}
+
+.topnav input[type=text]:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.topnav .search button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #3E065F;
+    color: #fff;
+}
+
+.topnav .search button:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+@media screen and (max-width: 600px){
+    .topnav .search{
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search button{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text]{
+        border: 1 solid #ccc;
+    }
+}
+
+/* content */
+.cards{
+    max-width: 1280px;
+    margin-inline: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 20px;
+
+    overflow-y: scroll;
+    height: 78vh;
+}
+
+.cards::-webkit-scrollbar-track
+{
+	border: 1px solid #8E05C2;
+	background-color: #00000000;
+    border-radius: 10px;
+}
+
+.cards::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+.cards::-webkit-scrollbar-thumb
+{
+	background-color: #8E05C2;	
+    border-radius: 10px;
+}
+
+.card{
+    font-family: 'Bebas Neue' sans-serif;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 30px; 
+    height: 298px;
+    background-color: #3E065F;
+    border-radius: 5px;
+    border: 2px solid #8E05C2;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.playerName{
+    font-size: 20px;
+    color: #fff;
+
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    height: 30px;
+    width: 110px;
+
+}
+
+.card a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardBody{
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    right: -100%;
+    position: absolute;
+    background: #000000f5;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.contentCard{
+    display: inline-block;
+    position: relative;
+}
+
+.contentCard img{
+    width: 200px;
+    opacity: 0.2;
+}
+
+.contentInfoCard{
+    position: absolute;
+    top: 0px;
+}
+
+.card:hover .cardBody{
+    right: 0;
+    top: 0;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cardSubtitle{
+    font-size: 13px;
+    font-weight: 300;
+    color: #919191;
+    line-height: 0.8;
+}
+
+.cardInfo{
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.team{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.player{
+    width: 180px;
+    position: absolute;
+    top: 116px;
+}
+
+/* footer */
+
+.footer-basic{
+    padding: 10px 0;
+    background-color: #3E065F;
+}
+
+.footer-basic ul a:hover{
+    opacity: 1;
+}
+
+.footer-basic .social{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer-basic .social > a{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 8px;
+    color: white;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover{
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}

@@ -1,0 +1,113 @@
+[
+    {
+        "settings": "coreano",
+        "nickname": "COREANO",
+        "name": "Eduardo Martins",
+        "born": "November 24, 2000",
+        "team": "Loud",
+        "teamIcon": "Loud",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "coreano"
+    },
+    {
+        "settings": "mch",
+        "nickname": "MCH",
+        "name": "Jean Michel D'Oliveira",
+        "born": "July 4, 1989",
+        "team": "Twitch",
+        "teamIcon": "Twitch",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "mch"
+    },
+    {
+        "settings": "fluyr",
+        "nickname": "FLUYR",
+        "name": "Vinícius Menegatti",
+        "born": "December 9, 1991",
+        "team": "Twitch",
+        "teamIcon": "Twitch",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "fluyr"
+    },
+    {
+        "settings": "tteuw",
+        "nickname": "TTEUW",
+        "name": "Matheus de Sena",
+        "born": "August 29, 2002",
+        "team": "MIBR",
+        "teamIcon": "Mibr",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "noimage"
+    },
+    {
+        "settings": "frttt",
+        "nickname": "FRTTT",
+        "name": "Leonardo Braz",
+        "born": "August 11, 1992",
+        "team": "Team Liquid",
+        "teamIcon": "TeamLiquid",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "frttt"
+    },
+    {
+        "settings": "tarik",
+        "nickname": "TARIK",
+        "name": "Tarik Celik",
+        "born": "February 18, 1996",
+        "team": "Sentinels",
+        "teamIcon": "Sentinels",
+        "nationality": "United States",
+        "nationalityIcon": "unitedstates",
+        "profilePic": "tarik"
+    },
+    {
+        "settings": "kyedae",
+        "nickname": "KYEDAE",
+        "name": "Kyedae Shymko",
+        "born": "December 1, 2001",
+        "team": "100 Thieves",
+        "teamIcon": "100thieves",
+        "nationality": "Canada",
+        "nationalityIcon": "canada",
+        "profilePic": "kyedae"
+    },
+    {
+        "settings": "shroud",
+        "nickname": "SHROUD",
+        "name": "Michael Grzesiek",
+        "born": "June 2, 1994",
+        "team": "Sentinels",
+        "teamIcon": "Sentinels",
+        "nationality": "Canada",
+        "nationalityIcon": "canada",
+        "profilePic": "shroud"
+    },
+    {
+        "settings": "nuuhfps",
+        "nickname": "NUUHFPS",
+        "name": "Gustavo Rocha",
+        "born": "October 20, 1997",
+        "team": "Los Grandes",
+        "teamIcon": "los",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "nuuhfps"
+    },
+    {
+        "settings": "xarola",
+        "nickname": "XAROLA",
+        "name": "Matheus Gomes",
+        "born": "October 21, 1997",
+        "team": "Twitch",
+        "teamIcon": "Twitch",
+        "nationality": "Brazil",
+        "nationalityIcon": "brazil",
+        "profilePic": "xarola"
+    }
+]
+    
