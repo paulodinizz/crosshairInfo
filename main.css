@@ -8,29 +8,30 @@
 
 body{
     margin: 0;
-    background-color: #000000ed;
-    /* background-image: url(assets/images/background/background-image.jpg); */
+    background-image: linear-gradient(to top right, #000000, #1b0029);
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* header */
 .topnav{
     overflow: hidden;
-    background-color: #3E065F;
+    background-color: transparent;
+    margin: 15px 10px 0 10px;
 }
 
 .topnav a{
     float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav a:hover{
-    background-color: #8E05C2;
+    color: #8E05C2;
 }
 
 .topnav .search{
@@ -38,15 +39,20 @@ body{
 }
 
 .topnav input[type=text]{
-    padding: 6px;
+    padding-left: 10px;
     margin-top: 8px;
-    font-size: 17px;
     border: none;
     background: #700B97;
     color: white;
 
     width: 300px;
-    border-radius: 25px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#navlist > div > form > input[type=text]::placeholder {
+    color: #ffffffb8;
+    font-size: .9em;
 }
 
 .topnav input[type=text]:focus{
@@ -60,10 +66,11 @@ body{
     padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
-    font-size: 17px;
+    margin-left: 25px;
+    font-size: 11px;
     border: none;
     cursor: pointer;
-    background-color: #3E065F;
+    background-color: transparent;
     color: #fff;
 }
 
@@ -131,6 +138,7 @@ body{
     background-color: #3E065F;
     border-radius: 5px;
     border: 2px solid #8E05C2;
+    box-shadow: 5px 5px #8d05c21e;
     position: relative;
     
     display: flex;
@@ -240,8 +248,8 @@ body{
 /* footer */
 
 .footer-basic{
-    padding: 10px 0;
-    background-color: #3E065F;
+    padding: 0;
+    background-color: transparent;
 }
 
 .footer-basic ul a:hover{
@@ -250,8 +258,7 @@ body{
 
 .footer-basic .social{
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 0;
 }
 
 .footer-basic .social > a{
