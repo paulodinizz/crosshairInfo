@@ -36,4 +36,3 @@ fetch('assets/json/players.json')
         "max-glare": 0.8,
     });
 }))
-      

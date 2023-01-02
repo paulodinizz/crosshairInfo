@@ -36,4 +36,3 @@ fetch('../assets/json/streamers.json')
         "max-glare": 0.8,
     });
 }))
-      
