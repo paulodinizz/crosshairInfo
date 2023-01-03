@@ -1,7 +1,20 @@
 let cards =document.querySelector('.cards')
+const searchBar = document.querySelector('[data-search]')
+
+let content = []
+
+searchBar.addEventListener('input', (e) =>{
+    const value = e.target.value.toLowerCase()
+    console.log(content)
+    content.forEach(player =>{
+        const isVisible = player.nickname.toLowerCase().includes(value) || player.team.toLowerCase().includes(value)
+        player.element.classList.toggle("hide", !isVisible)
+    })
+})
+
 fetch('assets/json/players.json')
 .then(response => response.json())
-.then(data => data.forEach((player, indice) =>{
+.then(data => content = data.map((player, indice) =>{
 
     let card = document.createElement('div')
     card.classList.add('card')
@@ -35,4 +48,5 @@ fetch('assets/json/players.json')
         glare: true,
         "max-glare": 0.8,
     });
+    return {nickname: player.nickname, team: player.team, element: card}
 }))
