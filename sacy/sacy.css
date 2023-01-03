@@ -1,5 +1,14 @@
 :root {
     --background-color: #0f1923;
+
+    --button-text-color: #8d05c2d2;
+    --button-text-color-hover: var(--button-background-color);
+    --border-color: #7D8082;
+    --button-background-color: #ece8e1;
+    --highlight-color: #8d05c2d2;
+    --button-inner-border-color: transparent;
+    --button-bits-color: var(--background-color);
+    --button-bits-color-hover: var(--button-background-color);
 }
 
 *{
@@ -28,7 +37,7 @@ body{
     /* /* margin-top: 70px; */
     padding-top: 30px; 
     left: 0;
-    background-color: #3E065F;
+    background-color: #404040;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,15 +98,6 @@ body{
     color: var(--button-text-color);
     cursor: pointer;
     /* Clean style */
-    
-    --button-text-color: #8d05c2d2;
-    --button-text-color-hover: var(--button-background-color);
-    --border-color: #7D8082;
-    --button-background-color: #ece8e1;
-    --highlight-color: #8d05c2d2;
-    --button-inner-border-color: transparent;
-    --button-bits-color: var(--background-color);
-    --button-bits-color-hover: var(--button-background-color);
     
     position: relative;
     padding: 8px;
@@ -209,7 +209,7 @@ body{
 
 .myContainer .topNav{
     overflow: hidden;
-    background-color: #3e065f50;
+    background-color: #40404046;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -231,11 +231,11 @@ body{
 }
 
 .topNav a:hover{
-    color: #8E05C2;
+    color: #b0aeae;
 }
 
 .hrTopnav{
-    border-color: #8E05C2;
+    border-color: #8d8d8d;
     display: block;
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -266,7 +266,7 @@ body{
 }
 
 .myContainer .topNavDropdown a:hover{
-    color: #8E05C2;
+    color: #b0aeae;
 }
 
 /* main content */
@@ -294,7 +294,7 @@ body{
 }
 
 .contentRow{
-    background-color: #3e065f67;
+    background-color: #40404049;
     width: 100%;
     height: 50px;
 }
@@ -310,7 +310,7 @@ body{
 }
 
 .boxItems{
-    background-color: #6f0b97bd;
+    background-color: #404040c5;
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -349,7 +349,7 @@ body{
 }
 
 .contentRowRight{
-    background-color: #3e065f67;
+    background-color: #40404049;
     width: 107%;
     height: 50px;
     display: flex;
@@ -363,15 +363,15 @@ body{
 }
 
 .contentRowRight.active{
-    background-color: #8E05C2;
+    background-color: #404040c5;
 }
 
 .contentRowRight.active2{
-    background-color: #8d05c2d2;
+    background-color: #404040e7;
 }
 
 .contentRowRightFullsize{
-    background-color: #3e065f67;
+    background-color: #40404049;
     width: 79%;
     height: 50px;
     cursor: pointer;
@@ -380,7 +380,7 @@ body{
 }
 
 .contentRowRightFullsize:hover{
-    background-color: #8d05c2d2;
+    background-color: #404040c5;
 }
 
 
@@ -413,7 +413,7 @@ body{
 }
 
 .dropdownList{
-    background-color: #3e065f;
+    background-color: #404040fa;
     position: absolute;
     top: 110%;
     left: 0;
@@ -429,6 +429,6 @@ body{
 }
 
 .dropdownListItems:hover{
-    background-color: #8d05c2d2;
+    background-color: #ffffff28;
 }
 
