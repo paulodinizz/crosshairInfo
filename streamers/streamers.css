@@ -8,7 +8,7 @@
 
 body{
     margin: 0;
-    background-image: linear-gradient(to top right, #000000, #404040);
+    background-image: linear-gradient(to top right, #000000, #1b0029);
     overflow: hidden;
     width: 100vw;
     height: 100vh;
@@ -31,7 +31,7 @@ body{
 }
 
 .topnav a:hover{
-    color: #b0aeae;
+    color: #8E05C2;
 }
 
 .topnav .search{
@@ -42,7 +42,7 @@ body{
     padding-left: 10px;
     margin-top: 8px;
     border: none;
-    background: #404040;
+    background: #700B97;
     color: white;
 
     width: 300px;
@@ -113,7 +113,7 @@ body{
 
 .cards::-webkit-scrollbar-track
 {
-	border: 1px solid #404040;
+	border: 1px solid #8E05C2;
 	background-color: #00000000;
     border-radius: 10px;
 }
@@ -125,7 +125,7 @@ body{
 
 .cards::-webkit-scrollbar-thumb
 {
-	background-color: #696969;	
+	background-color: #8E05C2;	
     border-radius: 10px;
 }
 
@@ -135,10 +135,10 @@ body{
     margin-top: 5px;
     margin-left: 30px; 
     height: 298px;
-    background-color: #404040;
+    background-color: #3E065F;
     border-radius: 5px;
-    border: 2px solid #696969;
-    box-shadow: 5px 5px #b0aeae0c;
+    border: 2px solid #8E05C2;
+    box-shadow: 5px 5px #8d05c21e;
     position: relative;
     
     display: flex;

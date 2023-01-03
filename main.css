@@ -286,3 +286,7 @@ body{
     color:#aaa;
     margin-bottom:0;
 }
+
+.hide{
+    display: none;
+}
