@@ -22,6 +22,10 @@ body{
     background-color: #000000ed;
 }
 
+/* responsive */
+
+
+
 /* sideBar */
 
 .myContainer{
@@ -432,3 +436,45 @@ body{
     background-color: #8d05c2d2;
 }
 
+@media screen and (max-width: 1366px){
+    .myContainer .topNav {
+        width: 1066px;
+        margin-left: 300px;
+    }
+
+    .hrTopnav{
+        margin-left: 300px;
+    }
+
+    .imageContent{
+        margin-left: 374px;
+    }
+
+    .imageContent img{
+        width: 779px;
+    }
+
+    .contentRow p {
+        font-size: 0.92rem;
+        padding: 13.5px 12px;
+    }
+
+    .contentRowRightFullsize{
+        width: 78.1%;
+    }
+
+    .myContainer .sideBar{
+        width: 300px;
+    }
+
+    .sideBar h2{
+        font-size: 1.8rem;
+    }
+
+    .buttonDiv a{
+        margin-left: 45px
+    }
+
+    
+
+}
