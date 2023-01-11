@@ -1,4 +1,3 @@
-
 const optionMenu = document.querySelector(".contentRowRightFullsize"),
     dropdownSelect = optionMenu.querySelector(".dropdownSelect"),
     options = optionMenu.querySelectorAll(".dropdownListItems"),
@@ -20,6 +19,7 @@ function imgMira1() {
     img.setAttribute('src', 'images/crosshair/crosshair1.png')
     document.getElementById("importMira").innerHTML = "0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0";
 }
+
 function imgMira2() {
     var img = document.getElementById('imageContentChange');
     img.setAttribute('src', 'images/crosshair/crosshair2.png')
