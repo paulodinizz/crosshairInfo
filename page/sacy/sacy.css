@@ -11,6 +11,10 @@
     --button-bits-color-hover: var(--button-background-color);
 }
 
+.testando{
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;

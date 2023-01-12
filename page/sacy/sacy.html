@@ -21,7 +21,7 @@
                 <a target="_blank" href="https://www.twitch.tv/sacy"><i class="icon ion-social-twitch"></i></a>
             </div>
             <div class="buttonDiv">
-                <a href="../main.html">
+                <a href="/main.html">
                     <button class="btn">
                         <span class="btn__inner">
                             <span class="btn__slide"></span>
@@ -96,19 +96,7 @@
                                     <span class="btnText">Crosshair 1</span>
                                     <i style="filter: invert(1);" class="icon ion-ios-arrow-down" ></i>
                                 </div>
-                                <div class="dropdownList">
-                                    <div onclick="imgMira1()" class="dropdownListItems image1"><span class="optionText">Crosshair 1</span></div>
-                                    <div onclick="imgMira2()" class="dropdownListItems"><span class="optionText">Crosshair 2</span></div>
-                                    <div onclick="imgMira3()" class="dropdownListItems"><span class="optionText">Crosshair 3</span></div>
-                                    <div onclick="imgMira4()" class="dropdownListItems"><span class="optionText">Crosshair 4</span></div>
-                                    <div onclick="imgMira5()" class="dropdownListItems"><span class="optionText">Crosshair 5</span></div>
-                                    <div onclick="imgMira6()" class="dropdownListItems"><span class="optionText">Crosshair 6</span></div>
-                                    <div onclick="imgMira7()" class="dropdownListItems"><span class="optionText">Crosshair 7</span></div>
-                                    <div onclick="imgMira8()" class="dropdownListItems"><span class="optionText">Crosshair 8</span></div>
-                                    <div onclick="imgMira9()" class="dropdownListItems"><span class="optionText">Crosshair 9</span></div>
-                                    <div onclick="imgMira10()" class="dropdownListItems"><span class="optionText">Crosshair 10</span></div>
-                                    <div onclick="imgMira11()" class="dropdownListItems"><span class="optionText">Crosshair 11</span></div>
-                                </div>
+                                <div id="dropdown-crosshairs" class="dropdownList"></div>
                             </div>
                             <br><br>
                             <div style="margin-top: 4px;" class=" row mainContentRight">
@@ -166,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div style="display:none;">
+    <div id="testee" class="testando">
         <textarea id="importMira">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</textarea>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
