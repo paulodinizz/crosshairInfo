@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacy Settings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pancada.css">
+</head>
+<body>
+    <div class="myContainer">
+        <div class="sideBar">
+            <img src="images/pancada.jpg" alt="" class="image">
+            <h2>Bryan "Pancada" Luna</h2>
+            <div class="social">
+                <a target="_blank" href="https://www.instagram.com/pancadafps"><i class="icon ion-social-instagram"></i></a>
+                <a target="_blank" href="https://twitter.com/pANcada"><i class="icon ion-social-twitter"></i></a>
+                <a target="_blank" href="https://www.twitch.tv/pancadalv"><i class="icon ion-social-twitch"></i></a>
+            </div>
+            <div class="buttonDiv">
+                <a href="../main.html">
+                    <button class="btn">
+                        <span class="btn__inner">
+                            <span class="btn__slide"></span>
+                            <span class="btn__content">back to main page</span>
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="topNav">
+                <a href="#">GENERAL</a>
+                <a href="#">CONTROLS</a>
+                <a class="active" href="">CROSSHAIR</a>
+                <a href="#">VIDEO</a>
+                <a href="#">AUDIO</a>
+            </div>
+            <hr class="hrTopnav">
+            <div class="topNavDropdown">
+                <a class="active" href="#">GENERAL</a>
+                <a href="#">PRIMARY</a>
+            </div>
+            <div  class="imageContent">
+                <img id="imageContentChange" src="images/crosshair/crosshair1.png" alt="">
+            </div>
+            <div class="crosshairContent">
+                <div class="container">
+                    <div class="row">
+                        <div class="left col">
+                            <div class="contentRow">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Crosshair Profile</p>
+                                    </div>
+                                    <div class="contentBoxes col">
+                                        <div title="DELETE CROSSHAIR PROFILE" class="boxItems" style="margin-right: 20px;">
+                                            <a  target="_blank"><i  class="icon ion-ios-trash-outline"></i></a>
+                                        </div>
+                                        <div onclick="copyText();" title="EXPORT PROFILE CODE" class="boxItems">
+                                            <a target="_blank"><i class="icon ion-ios-download-outline"></i></a>
+                                        </div>
+                                        <div title="IMPORT PROFILE CODE" class="boxItems">
+                                            <a target="_blank"><i class="icon ion-ios-upload-outline"></i></a>
+                                        </div>
+                                        <div title="DUPLICATE PROFILE" class="boxItems">
+                                            <a title=""  target="_blank"><i class="icon ion-ios-copy-outline"></i></a>
+                                        </div>
+                                        <div title="EDIT PROFILE NAME" class="boxItems">
+                                            <a title=""  target="_blank"><i class="icon ion-ios-compose-outline"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 style="margin-top: 0;" class="subTitle">CROSSHAIR</h2>
+                                <div class="contentRow">
+                                    <p>Use Advanced Options</p>
+                                </div>
+                                <h2 class="subTitle">OTHER</h2>
+                                <div class="contentRow">
+                                    <p>Show Spectated Player's Crosshair</p>
+                                </div>
+                                <div style="background-color: transparent;" class="contentRow">
+                                    <p>Fade Crosshair With Firing Error</p>
+                                </div>
+                                <div class="contentRow">
+                                    <p>Disable Crosshair</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col">
+                            <div class="contentRowRightFullsize">
+                                <div class="dropdownSelect">
+                                    <span class="btnText">Crosshair 1</span>
+                                    <i style="filter: invert(1);" class="icon ion-ios-arrow-down" ></i>
+                                </div>
+                                <div class="dropdownList">
+                                    <div onclick="imgMira1()" class="dropdownListItems image1"><span class="optionText">Crosshair 1</span></div>
+                                    <div onclick="imgMira2()" class="dropdownListItems"><span class="optionText">Crosshair 2</span></div>
+                                    <div onclick="imgMira3()" class="dropdownListItems"><span class="optionText">Crosshair 3</span></div>
+                                    <div onclick="imgMira4()" class="dropdownListItems"><span class="optionText">Crosshair 4</span></div>
+                                    <div onclick="imgMira5()" class="dropdownListItems"><span class="optionText">Crosshair 5</span></div>
+                                    <div onclick="imgMira6()" class="dropdownListItems"><span class="optionText">Crosshair 6</span></div>
+                                    <div onclick="imgMira7()" class="dropdownListItems"><span class="optionText">Crosshair 7</span></div>
+                                    <div onclick="imgMira8()" class="dropdownListItems"><span class="optionText">Crosshair 8</span></div>
+                                    <div onclick="imgMira9()" class="dropdownListItems"><span class="optionText">Crosshair 9</span></div>
+                                    <div onclick="imgMira10()" class="dropdownListItems"><span class="optionText">Crosshair 10</span></div>
+                                    <div onclick="imgMira11()" class="dropdownListItems"><span class="optionText">Crosshair 11</span></div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div style="margin-top: 4px;" class=" row mainContentRight">
+                                <div class="col ">
+                                    <div class="contentRowRight ">
+                                        <p>On</p>
+                                    </div>
+                                </div>
+                                <div class="col ">
+                                    <div class="contentRowRight active">
+                                        <p>Off</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <div style="margin-top: 4px;" class=" row mainContentRight">
+                                <div class="col ">
+                                    <div class="contentRowRight active">
+                                        <p>On</p>
+                                    </div>
+                                </div>
+                                <div class="col ">
+                                    <div class="contentRowRight">
+                                        <p>Off</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" row mainContentRight">
+                                <div class="col ">
+                                    <div class="contentRowRight">
+                                        <p>On</p>
+                                    </div>
+                                </div>
+                                <div class="col ">
+                                    <div class="contentRowRight active2">
+                                        <p>Off</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" row mainContentRight">
+                                <div class="col ">
+                                    <div class="contentRowRight">
+                                        <p>On</p>
+                                    </div>
+                                </div>
+                                <div class="col ">
+                                    <div class="contentRowRight active">
+                                        <p>Off</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;">
+        <textarea id="importMira">0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0</textarea>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="pancada.js"></script>
+    <script>
+        function copyText() {
+            var Text = document.getElementById("importMira");
+            Text.select();
+            navigator.clipboard.writeText(Text.value);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,480 @@
+:root {
+    --background-color: #0f1923;
+
+    --button-text-color: #8d05c2d2;
+    --button-text-color-hover: var(--button-background-color);
+    --border-color: #7D8082;
+    --button-background-color: #ece8e1;
+    --highlight-color: #8d05c2d2;
+    --button-inner-border-color: transparent;
+    --button-bits-color: var(--background-color);
+    --button-bits-color-hover: var(--button-background-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #000000ed;
+}
+
+/* responsive */
+
+
+
+/* sideBar */
+
+.myContainer{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.myContainer .sideBar{
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    /* /* margin-top: 70px; */
+    padding-top: 30px; 
+    left: 0;
+    background-color: #3E065F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.sidebar .buttonDiv{
+    position: relative;
+}
+
+.buttonDiv a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 65px;
+}
+
+.sideBar .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sideBar h2{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.sideBar .social{
+    padding-top: 25px;
+}
+
+.sideBar .social > a{
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: white;
+    opacity: 0.75;
+}
+
+.sideBar .social > a:hover{
+    opacity: 0.9;
+}
+
+.btn {
+    /* Clean style */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--button-text-color);
+    cursor: pointer;
+    /* Clean style */
+    
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+
+}
+  
+.btn::before,
+.btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid var(--border-color);
+    transition: all .15s ease;
+}
+  
+.btn::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+  
+.btn::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+  
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+  
+.btn:active::before,
+.btn:active::after {
+    right: 3px;
+    left: 3px;
+}
+  
+.btn:active::before {
+    top: 3px;
+}
+  
+.btn:active::after {
+    bottom: 3px;
+}
+
+.btn__inner {
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    background-color: var(--button-background-color);
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+}
+  
+.btn__inner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: var(--button-bits-color);
+}
+  
+.btn__inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: var(--button-bits-color);
+    transition: all .2s ease;
+}
+  
+.btn__slide {
+    display: block;
+    position: absolute;
+    top: 0; bottom: -1px; left: -8px;
+    width: 0;
+    background-color: var(--highlight-color);
+    transform: skew(-15deg);
+    transition: all .2s ease;
+}
+  
+.btn__content {
+    position: relative;
+}
+  
+.btn:hover {
+    color: var(--button-text-color-hover);
+}
+  
+.btn:hover .btn__slide {
+    width: calc(100% + 15px);
+}
+  
+.btn:hover .btn__inner::after {
+    background-color: var(--button-bits-color-hover);
+}
+
+/* header */
+
+.myContainer .topNav{
+    overflow: hidden;
+    background-color: #3e065f50;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    width: 1570px;
+}
+
+.myContainer .topNav .active{
+    color: #8E05C2;
+}
+
+.topNav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.topNav a:hover{
+    color: #8E05C2;
+}
+
+.hrTopnav{
+    border-color: #8E05C2;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: 350px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.myContainer .topNavDropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 350px;
+}
+
+.myContainer .topNavDropdown .active{
+    color: #8E05C2;
+}
+
+.myContainer .topNavDropdown a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.myContainer .topNavDropdown a:hover{
+    color: #8E05C2;
+}
+
+/* main content */
+
+.imageContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    z-index: 1000;
+}
+
+.imageContentChange{
+    z-index: 1000;
+}
+
+.crosshairContent{
+    margin-left: 465px;
+    margin-top: 20px;
+}
+
+.left{
+    color: white;
+    
+}
+
+.contentRow{
+    background-color: #3e065f67;
+    width: 100%;
+    height: 50px;
+}
+
+.contentRow p{
+    padding: 12px 12px;
+}
+
+.contentBoxes{
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxItems{
+    background-color: #6f0b97bd;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    border: none;
+}
+
+.boxItems > a{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5 5px;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.boxItems > a:hover{
+    opacity: 0.9;
+}
+
+.contentRow .subTitle{
+    font-size: 18px;
+}
+
+.subTitle{
+    margin: 15px 0;
+}
+
+.mainContentRight{
+    width: 82%;
+}
+
+.contentRowRight{
+    background-color: #3e065f67;
+    width: 107%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contentRowRight p{
+    padding: 12px 12px;
+    color: white;
+}
+
+.contentRowRight.active{
+    background-color: #8E05C2;
+}
+
+.contentRowRight.active2{
+    background-color: #8d05c2b2;
+}
+
+.contentRowRightFullsize{
+    background-color: #3e065f67;
+    width: 79%;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.contentRowRightFullsize:hover{
+    background-color: #8d05c2d2;
+}
+
+
+.contentRowRightFullsize span{
+    color: white;
+    padding-left: 12px;
+}
+
+.contentRowRightFullsize.active i{
+    transform: rotate(-180deg);
+    padding-left: 12px;
+}
+
+.contentRowRightFullsize i{
+    font-size: 30px;
+    padding-right: 12px;
+    transition: 0.6s;
+}
+
+.contentRowRightFullsize.active .dropdownListItems{
+    display: block;
+}
+
+.dropdownSelect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dropdownList{
+    background-color: #3e065f;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.dropdownListItems{
+    padding: 5px;
+    color: white;
+    display: none;
+    font-size: 12px;
+}
+
+.dropdownListItems:hover{
+    background-color: #8d05c2d2;
+}
+
+@media screen and (max-width: 1366px){
+    .myContainer .topNav {
+        width: 1066px;
+        margin-left: 300px;
+    }
+
+    .hrTopnav{
+        margin-left: 300px;
+    }
+
+    .imageContent{
+        margin-left: 374px;
+    }
+
+    .imageContent img{
+        width: 779px;
+    }
+
+    .contentRow p {
+        font-size: 0.92rem;
+        padding: 13.5px 12px;
+    }
+
+    .contentRowRightFullsize{
+        width: 78.1%;
+    }
+
+    .myContainer .sideBar{
+        width: 300px;
+    }
+
+    .sideBar h2{
+        font-size: 1.8rem;
+    }
+
+    .buttonDiv a{
+        margin-left: 45px
+    }
+
+    
+
+}
