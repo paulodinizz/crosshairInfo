@@ -14,39 +14,60 @@ searchBar.addEventListener('input', (e) =>{
 
 fetch('assets/json/players.json')
 .then(response => response.json())
-.then(data => content = data.map((player, indice) =>{
+.then(data => {
 
-    let card = document.createElement('div')
-    card.classList.add('card')
+    const shuffledData = shuffle(data);
+    shuffledData.forEach((player, index) =>{
 
-    cards.appendChild(card)
-
-    card.innerHTML = `
-    <span class="playerName">${player.nickname}</span>
-    <a href="page/${player.settings}/${player.settings}.html">
-    <img class="team" src="assets/images/team/${player.teamIcon}.png" alt="">
-    <img class="player" src="assets/images/players/${player.profilePic}.png" alt="">
-    <div class="cardBody">
-        <div class="contentCard">
-            <img src="assets/images/country/${player.nationalityIcon}.png" alt="">
-            <div class="contentInfoCard">
-                <h1 class="cardTitle">${player.nickname}</h1>
-                <p class="cardSubtitle">${player.name}</p>
-                <div class="cardInfo">
-                    <p><strong>Nationality:</strong> ${player.nationality}</p>
-                    <p><strong>Born:</strong> ${player.born}</p>
-                    <p><strong>Team:</strong> ${player.team}</p>
+        let card = document.createElement('div')
+        card.classList.add('card')
+    
+        cards.appendChild(card)
+    
+        card.innerHTML = `
+        <span class="playerName">${player.nickname}</span>
+        <a href="page/${player.settings}/${player.settings}.html">
+        <img class="team" src="assets/images/team/${player.teamIcon}.png" alt="">
+        <img class="player" src="assets/images/players/${player.profilePic}.png" alt="">
+        <div class="cardBody">
+            <div class="contentCard">
+                <img src="assets/images/country/${player.nationalityIcon}.png" alt="">
+                <div class="contentInfoCard">
+                    <h1 class="cardTitle">${player.nickname}</h1>
+                    <p class="cardSubtitle">${player.name}</p>
+                    <div class="cardInfo">
+                        <p><strong>Nationality:</strong> ${player.nationality}</p>
+                        <p><strong>Born:</strong> ${player.born}</p>
+                        <p><strong>Team:</strong> ${player.team}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </a>
-    `
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-        max: 25,
-        speed: 400,
-        glare: true,
-        "max-glare": 0.8,
+        </a>
+        `
+
+        VanillaTilt.init(card, {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.8,
+        });
     });
-    return {nickname: player.nickname, team: player.team, element: card}
-}))
+});
+
+function shuffle(array) {
+    let currentIndex = array.length;
+    let temporaryValue;
+    let randomIndex;
+
+    while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
