@@ -1,3 +1,4 @@
+
 const optionMenu = document.querySelector(".contentRowRightFullsize"),
     dropdownSelect = optionMenu.querySelector(".dropdownSelect"),
     options = optionMenu.querySelectorAll(".dropdownListItems"),
@@ -34,6 +35,3 @@ crosshairs.forEach((url, i) => {
 
     document.getElementById('dropdown-crosshairs').append(div)
 })
-
-
-

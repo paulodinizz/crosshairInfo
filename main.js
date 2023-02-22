@@ -1,11 +1,11 @@
 let cards =document.querySelector('.cards')
 const searchBar = document.querySelector('[data-search]')
 
-let content = []
+let content = [];
 
 searchBar.addEventListener('input', (e) =>{
     const value = e.target.value.toLowerCase()
-    console.log(content)
+
     content.forEach(player =>{
         const isVisible = player.nickname.toLowerCase().includes(value) || player.team.toLowerCase().includes(value)
         player.element.classList.toggle("hide", !isVisible)
@@ -44,14 +44,16 @@ fetch('assets/json/players.json')
             </div>
         </div>
         </a>
-        `
-
+        `;
+        
         VanillaTilt.init(card, {
             max: 25,
             speed: 400,
             glare: true,
             "max-glare": 0.8,
         });
+        
+        content.push({nickname: player.nickname, team: player.team, element: card})
     });
 });
 
