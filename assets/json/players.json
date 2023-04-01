@@ -1,407 +1,96 @@
 [
-    {
-        "settings": "sacy",
-        "nickname": "SACY",
-        "name": "Gustavo Rossi",
-        "born": "December 2, 1997",
-        "team": "Sentinels",
-        "teamIcon": "Sentinels",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Sacy"
-    },
-    {
-        "settings": "pancada",
-        "nickname": "PANCADA",
-        "name": "Bryan Luna",
-        "born": "October 31, 1999",
-        "team": "Sentinels",
-        "teamIcon": "Sentinels",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Pancada"
-    },
-    {
-        "nickname": "ASPAS",
-        "name": "Erick Santos",
-        "born": "June 15, 2003",
-        "team": "Loud",
-        "teamIcon": "Loud",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Aspas"
-    },
-    {
-        "nickname": "LESS",
-        "name": "Felipe Basso",
-        "born": "February 24, 2005",
-        "team": "Loud",
-        "teamIcon": "Loud",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Less"
-    },
-    {
-        "nickname": "SAADHAK",
-        "name": "Matias Delipetro",
-        "born": "March 8, 1997",
-        "team": "Loud",
-        "teamIcon": "Loud",
-        "nationality": "Argentina",
-        "nationalityIcon": "argentina",
-        "profilePic": "Saadhak"
-    },
-    {
-        "settings": "juliano",
-        "nickname": "JULIANO",
-        "name": "Julia Kiran",
-        "born": "November 4, 1993",
-        "team": "G2 Gozen",
-        "teamIcon": "G2",
-        "nationality": "Sweden",
-        "nationalityIcon": "sweden",
-        "profilePic": "Juliano"
-    },
-    {
-        "nickname": "PETRA",
-        "name": "Petra Stoker",
-        "born": "June 1, 1993",
-        "team": "G2 Gozen",
-        "teamIcon": "G2",
-        "nationality": "Netherlands",
-        "nationalityIcon": "netherland",
-        "profilePic": "Petra"
-    },
-    {
-        "nickname": "MIMI",
-        "name": "Michaela Lintrup",
-        "born": "July 2, 1997",
-        "team": "G2 Gozen",
-        "teamIcon": "G2",
-        "nationality": "Denmark",
-        "nationalityIcon": "denmark",
-        "profilePic": "Mimi"
-    },
-    {
-        "nickname": "GLANCE",
-        "name": "Anastasiya Rival'evna Anisimova",
-        "born": "September 3, 1998",
-        "team": "G2 Gozen",
-        "teamIcon": "G2",
-        "nationality": "Russia",
-        "nationalityIcon": "russia",
-        "profilePic": "Glance"
-    },
-    {
-        "nickname": "MARY",
-        "name": "Maryam Maher",
-        "born": "April 26, 2006",
-        "team": "G2 Gozen",
-        "teamIcon": "G2",
-        "nationality": "Bahrain",
-        "nationalityIcon": "bahrain",
-        "profilePic": "Mary"
-    },
-    {
-        "nickname": "YAY",
-        "name": "Jaccob Whiteaker",
-        "born": "September 9, 1998",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "Yay"
-    },
-    {
-        "nickname": "MARVED",
-        "name": "Jimmy Nguyen",
-        "born": "February 24, 2000",
-        "team": "Optic",
-        "teamIcon": "Optic",
-        "nationality": "Canada",
-        "nationalityIcon": "canada",
-        "profilePic": "Marved"
-    },
-    {
-        "nickname": "VICTOR",
-        "name": "Victor Wong",
-        "born": "September 14, 1996",
-        "team": "NRG",
-        "teamIcon": "Nrg",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "Victor"
-    },
-    {
-        "nickname": "CRASHIES",
-        "name": "Austin Roberts",
-        "born": "December 20, 1997",
-        "team": "NRG",
-        "teamIcon": "Nrg",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "Crashies"
-    },
-    {
-        "nickname": "FNS",
-        "name": "Pujan Mehta",
-        "born": "March 19, 1992",
-        "team": "NRG",
-        "teamIcon": "Nrg",
-        "nationality": "Canada",
-        "nationalityIcon": "canada",
-        "profilePic": "Fns"
-    },
-    {
-        "nickname": "FLOWERFUL",
-        "name": "Kayla Horton",
-        "born": "December 19, 1999",
-        "team": "Shopify Rebellion",
-        "teamIcon": "Shopify",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "SONDER",
-        "name": "Diana Zhang",
-        "born": "November 24, 2004",
-        "team": "Shopify Rebellion",
-        "teamIcon": "Shopify",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "KP",
-        "name": "Erika Lytle",
-        "born": "May 18, 2000",
-        "team": "Shopify Rebellion",
-        "teamIcon": "Shopify",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "LORRI",
-        "name": "Lorrian Elad",
-        "born": "June 27",
-        "team": "Shopify Rebellion",
-        "teamIcon": "Shopify",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "BENITA",
-        "name": "Benita Novshadian",
-        "born": "December 7, 1992",
-        "team": "Shopify Rebellion",
-        "teamIcon": "Shopify",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "BUZZ",
-        "name": "Yu Byung-chul",
-        "born": "January 13, 2003",
-        "team": "DRX",
-        "teamIcon": "Drx",
-        "nationality": "South Korea",
-        "nationalityIcon": "southkorea",
-        "profilePic": "Buzz"
-    },
-    {
-        "nickname": "MAKO",
-        "name": "Kim Myeong-kwan",
-        "born": "January 15, 2002",
-        "team": "DRX",
-        "teamIcon": "Drx",
-        "nationality": "South Korea",
-        "nationalityIcon": "southkorea",
-        "profilePic": "Mako"
-    },
-    {
-        "nickname": "ZEST",
-        "name": "Kim Gi-seok",
-        "born": "December 27, 2000",
-        "team": "DRX",
-        "teamIcon": "Drx",
-        "nationality": "South Korea",
-        "nationalityIcon": "southkorea",
-        "profilePic": "Zest"
-    },
-    {
-        "nickname": "RB",
-        "name": "Goo Sang-min",
-        "born": "December 7, 2001",
-        "team": "DRX",
-        "teamIcon": "Drx",
-        "nationality": "South Korea",
-        "nationalityIcon": "southkorea",
-        "profilePic": "Rb"
-    },
-    {
-        "nickname": "STAX",
-        "name": "Kim Gu-taek",
-        "born": "February 16, 2000",
-        "team": "DRX",
-        "teamIcon": "Drx",
-        "nationality": "South Korea",
-        "nationalityIcon": "southkorea",
-        "profilePic": "Stax"
-    },
-    {
-        "nickname": "NAXY",
-        "name": "Ana Beatriz Araujo",
-        "born": "December 26, 1998",
-        "team": "Team Liquid",
-        "teamIcon": "TeamLiquid",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Naxy"
-    },
-    {
-        "nickname": "DRN",
-        "name": "Paola Caroline",
-        "born": "August 20, 2000",
-        "team": "Team Liquid",
-        "teamIcon": "TeamLiquid",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Drn"
-    },
-    {
-        "nickname": "BSTRDD",
-        "name": "Paula Naguil",
-        "born": "May 6, 2000",
-        "team": "Team Liquid",
-        "teamIcon": "TeamLiquid",
-        "nationality": "Chile",
-        "nationalityIcon": "chile",
-        "profilePic": "Bstrdd"
-    },
-    {
-        "nickname": "DAIKI",
-        "name": "Natália Vilela",
-        "born": "October 4, 2004",
-        "team": "Team Liquid",
-        "teamIcon": "TeamLiquid",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Daiki"
-    },
-    {
-        "nickname": "NAT1",
-        "name": "Natália Meneses",
-        "born": "December 19",
-        "team": "Team Liquid",
-        "teamIcon": "TeamLiquid",
-        "nationality": "Brazil",
-        "nationalityIcon": "brazil",
-        "profilePic": "Nat1"
-    },
-    {
-        "nickname": "ZYPPAN",
-        "name": "Pontus Eek",
-        "born": "July 17, 2002",
-        "team": "Natus Vincere",
-        "teamIcon": "navi",
-        "nationality": "Sweden",
-        "nationalityIcon": "sweden",
-        "profilePic": "Zyppan"
-    },
-    {
-        "nickname": "ARDIIS",
-        "name": "Ardis Svarenieks",
-        "born": "May 1, 1998",
-        "team": "NRG",
-        "teamIcon": "Nrg",
-        "nationality": "United Kingdom",
-        "nationalityIcon": "unitedkingdom",
-        "profilePic": "ardiis"
-    },
-    {
-        "nickname": "SUYGETSU",
-        "name": "Dmitry Ilyushin",
-        "born": "July 16, 2002",
-        "team": "Natus Vincere",
-        "teamIcon": "navi",
-        "nationality": "Russia",
-        "nationalityIcon": "russia",
-        "profilePic": "Suygetsu"
-    },
-    {
-        "nickname": "SHAO",
-        "name": "Andrey Kiprsky",
-        "born": "January 27, 2000",
-        "team": "Natus Vincere",
-        "teamIcon": "navi",
-        "nationality": "Russia",
-        "nationalityIcon": "Russia",
-        "profilePic": "Shao"
-    },
-    {
-        "nickname": "ANGE1",
-        "name": "Kyrylo Karasov",
-        "born": "September 10, 1989",
-        "team": "Natus Vincere",
-        "teamIcon": "navi",
-        "nationality": "Ukraine",
-        "nationalityIcon": "ukraine",
-        "profilePic": "Ange1"
-    },
-    {
-        "nickname": "ALEXIS",
-        "name": "Alexis Guarrasi",
-        "born": "July 25, 2002",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "JAZZYK1NS",
-        "name": "Jasmine Manankil",
-        "born": "July 27, 2004",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "Canada",
-        "nationalityIcon": "canada",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "KATSUMI",
-        "name": "Katja Pfahnl",
-        "born": "September 4, 2000",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "MEL",
-        "name": "Melanie Capone",
-        "born": "May 26, 2000",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "United States",
-        "nationalityIcon": "unitedstates",
-        "profilePic": "noimage"
-    },
-    {
-        "nickname": "BOB",
-        "name": "Bob Tran",
-        "born": "December 29",
-        "team": "Cloud9",
-        "teamIcon": "cloud9",
-        "nationality": "Australia",
-        "nationalityIcon": "australia",
-        "profilePic": "noimage"
-    }
-    
+	{
+		"nickname": "SACY",
+		"name": "Gustavo Rossi",
+		"born": "December 2, 1997",
+		"team": "Sentinels",
+		"teamIcon": "Sentinels",
+		"nationality": "Brazil",
+		"nationalityIcon": "brazil",
+		"profilePic": "Sacy",
+		"crosshairPage": {
+			"profilePic": "Sacy",
+			"namenick": "Gustavo 'Sacy' Rossi",
+			"instagram": "sacyrossi",
+			"twitter": "sen_sacy",
+			"twitch": "sacy"
+		},
+		"crosshair": [
+			{
+				"codes": "0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair1.png"
+			},
+			{
+				"codes": "0;s;1;P;h;0;0t;1;0l;4;0o;1;0a;1;0f;0;1t;3;1o;2;1a;1;1m;0;1f;0;S;c;0",
+				"image": "images/crosshair/crosshair2.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair3.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair4.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair5.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair6.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair7.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair8.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair9.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair10.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair11.png"
+			}
+		]
+	},
+	{
+		"nickname": "PANCADA",
+		"name": "Bryan Luna",
+		"born": "October 31, 1999",
+		"team": "Sentinels",
+		"teamIcon": "Sentinels",
+		"nationality": "Brazil",
+		"nationalityIcon": "brazil",
+		"profilePic": "Pancada",
+		"crosshairPage": {
+			"profilePic": "Pancada",
+			"namenick": "Bryan 'Pancada' Luna",
+			"instagram": "sacyrossi",
+			"twitter": "sen_sacy",
+			"twitch": "sacy"
+		},
+		"crosshair": [
+			{
+				"codes": "0;P;h;0;f;0;0l;4;0o;0;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair1.png"
+			},
+			{
+				"codes": "0;s;1;P;h;0;0t;1;0l;4;0o;1;0a;1;0f;0;1t;3;1o;2;1a;1;1m;0;1f;0;S;c;0",
+				"image": "images/crosshair/crosshair2.png"
+			},
+			{
+				"codes": "0;s;1;P;o;0;0t;1;0l;4;0o;2;0a;1;0f;0;1b;0",
+				"image": "images/crosshair/crosshair3.png"
+			}
+		]
+	}
 ]
-    

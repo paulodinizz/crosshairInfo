@@ -11,6 +11,10 @@
     --button-bits-color-hover: var(--button-background-color);
 }
 
+.testando{
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,11 +24,10 @@
 body{
     margin: 0;
     background-color: #000000ed;
+    overflow-x: hidden;
 }
 
 /* responsive */
-
-
 
 /* sideBar */
 
@@ -474,7 +477,4 @@ body{
     .buttonDiv a{
         margin-left: 45px
     }
-
-    
-
 }
